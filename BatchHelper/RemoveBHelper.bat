@@ -29,6 +29,7 @@ goto QUIT
 echo You Chose Not to remove BatchHelper, Thankyou
 pause
 del "RemoveBHelper.bat"
+goto QUIT
 
 :QUIT 
 pause
