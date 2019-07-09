@@ -7,12 +7,12 @@ set/p "cho=>"
 set INSTALL_DIR=test
 
 ::DEV INSTALL
-	echo DEVELOPER MODE IS ON! Will install to temp directory!
-	set DEV_INSTALL=true
-	set TEMPDEVDIR=BH_%random%%random%%random%%random%%random%
-	mkdir "%temp%/%TEMPDEVDIR%"
-	set INSTALL_DIR="%temp%/%TEMPDEVDIR%"
-	start %temp%/%TEMPDEVDIR%
+	REM echo DEVELOPER MODE IS ON! Will install to temp directory!
+	REM set DEV_INSTALL=true
+	REM set TEMPDEVDIR=BH_%random%%random%%random%%random%%random%
+	REM mkdir "%temp%/%TEMPDEVDIR%"
+	REM set INSTALL_DIR="%temp%/%TEMPDEVDIR%"
+	REM start %temp%/%TEMPDEVDIR%
 ::DEV INSTALL
 
 if %cho%==Y goto INSTALL
