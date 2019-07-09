@@ -19,6 +19,15 @@ del "RandomNumberHelp_run.bat"
 del "RandomNumberLog.bat"
 del "RandomNumberLogOpener.bat"
 del "RandomNumber_Generator.log"
+del "Random_Number_Generator.log"
+del "StarWars.bat"
+del "backupreg.bat"
+del "InstallTelnet.bat"
+del "sysinfo.bat"
+del "sysoutput.csv"
+del "sysoutput.log"
+del "sysoutput.tbl"
+del "sysoutput.txt"
 cls
 
 
