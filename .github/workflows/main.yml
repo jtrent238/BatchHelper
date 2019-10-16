@@ -12,30 +12,44 @@ jobs:
     # - name: Run a one-line script
       # run: install
     - name: Run a one-line script
-      run: ./RandomNumber
+      run: RandomNumber
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./RandomNumberHelp
+      run: RandomNumberHelp
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./RandomNumberLog
+      run: RandomNumberLog
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./sysinfo
+      run: sysinfo
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./backupreg
+      run: backupreg
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./InstallTelnet
+      run: InstallTelnet
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./StarWars
+      run: StarWars
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./installchocolatey
+      run: installchocolatey
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./installchoco
+      run: installchoco
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./BHelp
+      run: BHelp
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./BatchHelper
+      run: BatchHelper
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./BatchDebug
+      run: BatchDebug
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./BHelpAbout
+      run: BHelpAbout
+      working-directory: ./BatchHelper
     - name: Run a one-line script
-      run: ./pkg
+      run: pkg
+      working-directory: ./BatchHelper
