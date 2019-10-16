@@ -12,6 +12,7 @@ echo sysinfo -- Generates system info.
 echo backupreg -- Backs up the registry.
 echo InstallTelnet -- Installs Telnet.
 echo StarWars -- Watch Star Wars in the command prompt.
+echo installchocolatey, installchoco -- Installs Chocolatey package manager for Windows.
 echo BHelpAbout -- About BatchHelper.
 echo RemoveBHelper -- Remove BatchHelper from your system.
 echo BHelp -- Opens BatchHelper Help.
