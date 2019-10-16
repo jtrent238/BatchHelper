@@ -12,30 +12,30 @@ jobs:
     # - name: Run a one-line script
       # run: install
     - name: Run a one-line script
-      run: RandomNumber
+      run: ./RandomNumber
     - name: Run a one-line script
-      run: RandomNumberHelp
+      run: ./RandomNumberHelp
     - name: Run a one-line script
-      run: RandomNumberLog
+      run: ./RandomNumberLog
     - name: Run a one-line script
-      run: sysinfo
+      run: ./sysinfo
     - name: Run a one-line script
-      run: backupreg
+      run: ./backupreg
     - name: Run a one-line script
-      run: InstallTelnet
+      run: ./InstallTelnet
     - name: Run a one-line script
-      run: StarWars
+      run: ./StarWars
     - name: Run a one-line script
-      run: installchocolatey
+      run: ./installchocolatey
     - name: Run a one-line script
-      run: installchoco
+      run: ./installchoco
     - name: Run a one-line script
-      run: BHelp
+      run: ./BHelp
     - name: Run a one-line script
-      run: BatchHelper
+      run: ./BatchHelper
     - name: Run a one-line script
-      run: BatchDebug
+      run: ./BatchDebug
     - name: Run a one-line script
-      run: BHelpAbout
+      run: ./BHelpAbout
     - name: Run a one-line script
-      run: pkg
+      run: ./pkg
