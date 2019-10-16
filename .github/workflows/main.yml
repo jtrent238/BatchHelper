@@ -1,0 +1,41 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: install
+    - name: Run a one-line script
+      run: RandomNumber
+    - name: Run a one-line script
+      run: RandomNumberHelp
+    - name: Run a one-line script
+      run: RandomNumberLog
+    - name: Run a one-line script
+      run: sysinfo
+    - name: Run a one-line script
+      run: backupreg
+    - name: Run a one-line script
+      run: InstallTelnet
+    - name: Run a one-line script
+      run: StarWars
+    - name: Run a one-line script
+      run: installchocolatey
+    - name: Run a one-line script
+      run: installchoco
+    - name: Run a one-line script
+      run: BHelp
+    - name: Run a one-line script
+      run: BatchHelper
+    - name: Run a one-line script
+      run: BatchDebug
+    - name: Run a one-line script
+      run: BHelpAbout
+    - name: Run a one-line script
+      run: pkg
