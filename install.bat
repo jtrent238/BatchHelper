@@ -3,23 +3,33 @@ cls
 echo Do you want to install BatchHelper? (Y/N)
 set/p "cho=>"
 
+set DEV_MODE=true
 
-set INSTALL_DIR=test
+set INSTALL_DIR=%SYSTEMROOT%\System32
 
-::DEV INSTALL
-	REM echo DEVELOPER MODE IS ON! Will install to temp directory!
-	REM set DEV_INSTALL=true
-	REM set TEMPDEVDIR=BH_%random%%random%%random%%random%%random%
-	REM mkdir "%temp%/%TEMPDEVDIR%"
-	REM set INSTALL_DIR="%temp%/%TEMPDEVDIR%"
-	REM start %temp%/%TEMPDEVDIR%
-::DEV INSTALL
 
-if %cho%==Y goto INSTALL
-if %cho%==y goto INSTALL
+if (%DEV_MODE% == true) (
+	if %cho%==Y goto DEV_INSTALL
+	if %cho%==y goto DEV_INSTALL
+) 
+if (%DEV_MODE% == true) (
+	if %cho%==Y goto INSTALL
+	if %cho%==y goto INSTALL
+)
+
+
 if %cho%==n goto END
 if %cho%==N goto END
 
+:DEV_INSTALL
+echo DEVELOPER MODE IS ON! Will install to temp directory!
+set DEV_INSTALL=true
+set TEMPDEVDIR=BH_%random%%random%%random%%random%%random%
+mkdir "%temp%/%TEMPDEVDIR%"
+set INSTALL_DIR="%temp%/%TEMPDEVDIR%"
+start %temp%/%TEMPDEVDIR%
+goto INSTALL
+	
 :INSTALL
 xcopy "BatchHelper" %INSTALL_DIR%
 cls
