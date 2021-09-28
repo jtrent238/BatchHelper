@@ -17,4 +17,5 @@
     - `BatchHelper` Main command that currently does not relly have a use at the moment.
     - `BatchDebug` Debugs the program, but currently only lists the dir where the `.bat` file is located.
     - `BHelpAbout` Opens the BatchHelper about file, currently there is not one.
-	- `pkg` Package manager
+    - `pkg` Package manager
+    - `bhget` wget for BatchHelper
