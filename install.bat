@@ -3,7 +3,7 @@ cls
 echo Do you want to install BatchHelper? (Y/N)
 set/p "cho=>"
 
-set DEV_MODE=true
+set DEV_MODE=false
 
 set INSTALL_DIR=%SYSTEMROOT%\System32
 
@@ -12,7 +12,7 @@ if (%DEV_MODE% == true) (
 	if %cho%==Y goto DEV_INSTALL
 	if %cho%==y goto DEV_INSTALL
 ) 
-if (%DEV_MODE% == true) (
+if (%DEV_MODE% == false) (
 	if %cho%==Y goto INSTALL
 	if %cho%==y goto INSTALL
 )
