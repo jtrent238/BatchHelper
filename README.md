@@ -1,5 +1,5 @@
 ### How to install?
-- just drop all `.bat` files in `%SystemRoot%\System32` 
+- just drop all `.bat` files in `%SystemRoot%\System32` or run `install.bat`
 
 ### Current Commands
 - `RandomNumber` -- Gives you a random number.
