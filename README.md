@@ -10,7 +10,7 @@
 - `InstallTelnet` -- Installs Telnet.
 - `StarWars` -- Watch Star Wars in the command prompt.
 - `installchocolatey`, `installchoco` -- Installs Chocolatey package manager for Windows.
-- `RemoveBHelper` -- Remove BatchHelper from your system.
+- `RemoveBHelper`, `uninstallbh`, `removebh` -- Remove BatchHelper from your system.
 - `BHelp` -- Opens BatchHelper Help.
 
     #### Non Working Commands and/or No use
